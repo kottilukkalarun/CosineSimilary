@@ -36,7 +36,12 @@ class CosineSimilarityFinder:
                 self.df = pd.read_excel(dataset, index_col=0)
                 return self.df
             else:
-                return None
+                if 'http' in dataset or 'https' in dataset:
+                    html = requests.get(dataset, verify=False)
+                    self.df = pd.read_html(html.text)[datasetIndex]
+                    return self.df
+                else:
+                    return None
 
     
     def find_similarity(self,text1, text2):
