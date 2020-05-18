@@ -1,14 +1,14 @@
 from distutils.core import setup
 setup(
   name = 'CosineSimilarityFinder',         # How you named your package folder (MyLib)
-  packages = ['CosineSimilarityFinder'],   # Chose the same as "name"
-  version = '0.3',      # Start with a small number and increase it with every change you make
+  packages = ['SimilarityFinder'],   # Chose the same as "name"
+  version = '0.4',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
   description = 'FINDS COSINE SIMILARITY BETWEEN TWO TEXTS',   # Give a short description about your library
   author = 'ARUN KESAVAN KOTTILUKKAL',                   # Type in your name
   author_email = 'arunkottilukkal@outlook.in',      # Type in your E-Mail
   url = 'https://github.com/kottilukkalarun/CosineSimilary',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/kottilukkalarun/CosineSimilary/archive/v_03.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/kottilukkalarun/CosineSimilary/archive/v_04.tar.gz',    # I explain this later on
   keywords = ['COSINE SIMILARITY', 'TEXT SIMILARITY', 'STRING SIMILARITY'],   # Keywords that define your package best
   install_requires=[   
     'nltk',
