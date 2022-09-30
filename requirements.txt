@@ -5,7 +5,7 @@ dnspython==1.16.0
 eventlet==0.25.2
 greenlet==0.4.15
 idna==2.9
-joblib==0.15.1
+joblib==1.2.0
 monotonic==1.5
 nltk==3.5
 numpy==1.18.4
